@@ -62,7 +62,7 @@ $(function () {
       success: function (res) {
         // 校验状态
         if (res.status !== 0) {
-          return layer.mas(res.message)
+          return layer.msg(res.message)
         }
         // 成功就提示信息，然后保存token，跳转页面
         layer.msg('恭喜您，登陆成功！')
@@ -72,6 +72,8 @@ $(function () {
         location.href = '/index.html'
       }
     })
-
   })
+
+
+
 })

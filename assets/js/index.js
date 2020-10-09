@@ -36,7 +36,7 @@ function getUserInfo() {
       // 渲染用户头像
       renderAvatar(res.data)
     },
-    // 无论成功与否都会调用conmplete回调函数
+    // 无论成功与否都会调用complete回调函数
     // complete: function (res) {
     //   console.log(res);
     //   if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！') {
